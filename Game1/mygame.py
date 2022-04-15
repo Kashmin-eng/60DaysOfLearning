@@ -4,10 +4,10 @@ pygame.init()
 win = pygame.display.set_mode((500,500)) #size of Game panel
 pygame.display.set_caption("First Game") #Display on Caprion
 
-walkRight = [pygame.image.load('R1.png'), pygame.image.load('R2.png'), pygame.image.load('R3.png'), pygame.image.load('R4.png'), pygame.image.load('R5.png'), pygame.image.load('R6.png'), pygame.image.load('R7.png'), pygame.image.load('R8.png'), pygame.image.load('R9.png')]
-walkLeft = [pygame.image.load('L1.png'), pygame.image.load('L2.png'), pygame.image.load('L3.png'), pygame.image.load('L4.png'), pygame.image.load('L5.png'), pygame.image.load('L6.png'), pygame.image.load('L7.png'), pygame.image.load('L8.png'), pygame.image.load('L9.png')]
-bg = pygame.image.load('bg.jpg')
-char = pygame.image.load('standing.png')
+walkRight = [pygame.image.load('Game1/R1.png'), pygame.image.load('Game1/R2.png'), pygame.image.load('Game1/R3.png'), pygame.image.load('Game1/R4.png'), pygame.image.load('Game1/R5.png'), pygame.image.load('Game1/R6.png'), pygame.image.load('Game1/R7.png'), pygame.image.load('Game1/R8.png'), pygame.image.load('Game1/R9.png')]
+walkLeft = [pygame.image.load('Game1/L1.png'), pygame.image.load('Game1/L2.png'), pygame.image.load('Game1/L3.png'), pygame.image.load('Game1/L4.png'), pygame.image.load('Game1/L5.png'), pygame.image.load('Game1/L6.png'), pygame.image.load('Game1/L7.png'), pygame.image.load('Game1/L8.png'), pygame.image.load('Game1/L9.png')]
+bg = pygame.image.load('Game1/bg.jpg')
+char = pygame.image.load('Game1/standing.png')
 
 clock = pygame.time.Clock()
 x = 50
