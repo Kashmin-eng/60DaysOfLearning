@@ -6,7 +6,7 @@ pygame.display.set_caption("First Game") #Display on Caprion
 
 walkRight = [pygame.image.load('Game1/R1.png'), pygame.image.load('Game1/R2.png'), pygame.image.load('Game1/R3.png'), pygame.image.load('Game1/R4.png'), pygame.image.load('Game1/R5.png'), pygame.image.load('Game1/R6.png'), pygame.image.load('Game1/R7.png'), pygame.image.load('Game1/R8.png'), pygame.image.load('Game1/R9.png')]
 walkLeft = [pygame.image.load('Game1/L1.png'), pygame.image.load('Game1/L2.png'), pygame.image.load('Game1/L3.png'), pygame.image.load('Game1/L4.png'), pygame.image.load('Game1/L5.png'), pygame.image.load('Game1/L6.png'), pygame.image.load('Game1/L7.png'), pygame.image.load('Game1/L8.png'), pygame.image.load('Game1/L9.png')]
-bg = pygame.image.load('Game1/bg.jpg')
+bg = pygame.image.load('Game1/bg.png')
 char = pygame.image.load('Game1/standing.png')
 
 clock = pygame.time.Clock()
